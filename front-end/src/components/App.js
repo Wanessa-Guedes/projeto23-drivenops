@@ -3,7 +3,7 @@ import axios from "axios";
 
 function App() {
   const [student, setStudent] = useState(null);
-  console.log("actions teste 1");
+
   useEffect(async () => {
     const API_URL = process.env.REACT_APP_BASE_URL;
     try {
